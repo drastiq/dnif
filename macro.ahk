@@ -9,7 +9,7 @@
 FileEncoding , UTF-8
 SendMode Input
 SetTitleMatchMode, 3
-macroVersion := 131
+macroVersion := 133
 
 If (A_AhkVersion <= "1.1.23")
 {
@@ -141,7 +141,7 @@ phase := 0
 lastWhisperTimeRecieved := 0
 
 ;timers
-updateTrackingTimer := 5000 ; 5 seconds
+updateTrackingTimer := 50000 ; 50 seconds
 baseUpdateTrackingTimer := 300000 ; 5 minutes
 overlayTimer := 0
 baseOverlayTimer := sleepTime
