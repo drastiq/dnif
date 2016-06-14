@@ -9,7 +9,7 @@
 FileEncoding , UTF-8
 SendMode Input
 SetTitleMatchMode, 3
-macroVersion := 131
+macroVersion := 133
 
 If (A_AhkVersion <= "1.1.23")
 {
@@ -124,7 +124,7 @@ IfNotExist, settings.ini
 	defaultIni .= "wm4=^4`n"
 	defaultIni .= "wm5=^5`n"
 	defaultIni .= "pm1=!1`n"
-	defaultIni .= "pm2=!2`n"
+	defaultIni .= "pm4324=!2`n"
 	defaultIni .= "pm3=!3`n"
 	defaultIni .= "pm4=!4`n"
 	defaultIni .= "pm5=!5"
