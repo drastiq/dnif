@@ -9,7 +9,7 @@
 FileEncoding , UTF-8
 SendMode Input
 SetTitleMatchMode, 3
-macroVersion := 133
+macroVersion := 133ffsdfdsf
 
 If (A_AhkVersion <= "1.1.23")
 {
