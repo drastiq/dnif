@@ -141,7 +141,7 @@ phase := 0
 lastWhisperTimeRecieved := 0
 
 ;timers
-updateTrackingTimer := 5000 ; 5 seconds
+updateTrackingTimer := 50000 ; 50 seconds
 baseUpdateTrackingTimer := 300000 ; 5 minutes
 overlayTimer := 0
 baseOverlayTimer := sleepTime
